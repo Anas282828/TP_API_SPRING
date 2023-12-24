@@ -1,0 +1,77 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!-- Head content -->
+</head>
+
+<style>
+  .text-white {
+    color: white !important;
+  }
+</style>
+
+
+<body>
+    <!-- Include the navbar fragment with updated syntax -->
+    <!DOCTYPE html>
+    <html xmlns:th="http://www.thymeleaf.org">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <title>meteo</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class=" text-white nav-link" href="/greeting">Greetings</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-white nav-link" href="adresses">Adresse</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-white nav-link" href="/address">Envoyer une adresse</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    
+
+<section class="vh-100" style="background-color: #f5f6f7;">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-md-10 col-lg-8 col-xl-6">
+
+        <div class="card bg-white text-white" style="border-radius: 40px;">
+          <div class="bg-image" style="border-radius: 35px;">
+            <img src="https://freedom.fr/wp-content/uploads/2023/07/meteo.webp"
+              class="card-img" alt="weather" />
+            <div class="mask" style="background-color: rgba(190, 216, 232, .5);"></div>
+          </div>
+          <div class="card-img-overlay text-dark p-5">
+            <h4 class="mb-0 text-white" th:text=" ' Ville : '+${city} "></h4>
+            <p class="display-2 my-3 text-white" th:text=" ${weather} + '°C'"></p>
+            <h3 class="mb-2 text-white" "ms-1 "  th:text=" ' tmax : '+${tmax} "></strong></h3>
+            <h3 class="mb-2 text-white" "ms-1 "  th:text=" ' tmin : '+${tmin} "></strong></h3>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+    </html>
+    
+</body>
+</html>
