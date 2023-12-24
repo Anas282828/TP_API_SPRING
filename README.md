@@ -72,4 +72,39 @@ En somme, ce projet TP3 représente un effort collaboratif et approfondi pour cr
 
 Le projet sert de preuve concrète de notre capacité à appliquer des compétences théoriques dans un contexte pratique, tout en mettant en lumière l'efficacité des technologies Spring Boot et Bootstrap dans le développement d'applications web contemporaines.
 
+## TP4
+## Description du projet TP4 
+
+Ce projet TP4 est une application web qui utilise l'API MeteoConcept pour fournir des prévisions météorologiques en fonction des coordonnées GPS fournies. Le projet implique l'intégration d'APIs externes et la gestion de données géographiques et météorologiques.
+
+### Réponses aux Questions Techniques
+
+Utilisation de l'API MeteoConcept
+Clé API Nécessaire : Oui, une clé API est requise pour accéder aux services de MeteoConcept. Dans ce projet, j’ai utilisé la clé "f79059a4ee26190824e70fef6b08d295136d9467f7cdaaaf00eb06fcabf78c8c".
+
+URL à Appeler : L'URL utilisée pour récupérer les données météorologiques est "https://api.meteo-concept.com/api/forecast/daily/0?token="+token+"&insee="+insee+"&latlng="+longt+"2C"+lat"
+
+Méthode HTTP Utilisée : Nous utilisons la méthode GET pour récupérer les données de l'API.
+
+Passage des Paramètres d'Appels : Les paramètres sont passés via l'URL de requête. Par exemple, les coordonnées GPS et l'identifiant INSEE sont ajoutés à l'URL de l'API MeteoConcept comme paramètres de requête.
+
+Information dans la Réponse pour la Température et la Prévision Météo :
+
+La température (minimale et maximale) et la prévision météorologique pour le lieu visé par les coordonnées GPS sont extraites de la réponse de l'API MeteoConcept.
+Les champs pertinents de la réponse sont tmin, tmax, et weather dans l'objet Forecast de la réponse
+.
+Intégration dans l'Application
+Le contrôleur MeteoController gère la logique de traitement des données météorologiques. Lorsqu'une adresse est soumise, le contrôleur effectue les actions suivantes :
+
+Convertit l'adresse en coordonnées GPS en utilisant l'API api-adresse.data.gouv.fr.
+Utilise ces coordonnées pour faire une requête à l'API MeteoConcept et récupérer les prévisions météorologiques.
+Les données météorologiques sont ensuite affichées sur la page meteo.
+
+
+1– On a besoin de la latitude et de la longitude et du code postal 
+2– La même chose en remplacant le 0 dans notre lien en ajoutant les parametres du premier et du dernier jour (0: aujourd'hui, 1: demain, etc.)
+
+## Conclusion du TP4
+
+Ce TP4 illustre la capacité à intégrer et à manipuler des données provenant d'APIs externes, en l'occurrence des données météorologiques, dans une application web. La réussite de ce projet témoigne de compétences avancées en matière de développement web, de traitement de données JSON, et d'intégration d'APIs.
 
