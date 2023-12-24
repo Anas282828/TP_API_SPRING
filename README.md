@@ -101,7 +101,8 @@ Utilise ces coordonnées pour faire une requête à l'API MeteoConcept et récup
 Les données météorologiques sont ensuite affichées sur la page meteo.
 
 
-1– On a besoin de la latitude et de la longitude et du code postal 
+1– On a besoin de la latitude et de la longitude et du code postal
+
 2– La même chose en remplacant le 0 dans notre lien en ajoutant les parametres du premier et du dernier jour (0: aujourd'hui, 1: demain, etc.)
 
 ## Conclusion du TP4
