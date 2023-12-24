@@ -109,3 +109,16 @@ Les données météorologiques sont ensuite affichées sur la page meteo.
 
 Ce TP4 illustre la capacité à intégrer et à manipuler des données provenant d'APIs externes, en l'occurrence des données météorologiques, dans une application web. La réussite de ce projet témoigne de compétences avancées en matière de développement web, de traitement de données JSON, et d'intégration d'APIs.
 
+# Screen de l'application - Greetings
+![image](https://github.com/Anas282828/TP_API_SPRING/assets/154508725/e4fcb442-facc-44f8-bf58-c87dbed81978)
+
+# - Adresse
+![image](https://github.com/Anas282828/TP_API_SPRING/assets/154508725/d94513d7-14f2-46dc-a1cc-f18950f537c5)
+
+# - Envoyer une adresse
+![image](https://github.com/Anas282828/TP_API_SPRING/assets/154508725/b8ce88ae-c899-4e85-93b7-7f5c61d1c0db)
+![image](https://github.com/Anas282828/TP_API_SPRING/assets/154508725/b1a84409-c295-449a-9c39-ee003d9e2716)
+
+
+
+
