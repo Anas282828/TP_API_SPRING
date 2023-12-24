@@ -67,7 +67,7 @@ Pour améliorer l'interface utilisateur et le design de l'application, Bootstrap
 Rôle de Bootstrap : Bootstrap est une bibliothèque front-end populaire qui fournit des composants de style et de mise en page pour développer des interfaces utilisateur réactives et attrayantes.
 Choix de la Version : La version 5.3.0 a été choisie, mais elle peut être mise à jour en fonction des dernières versions disponibles pour bénéficier des dernières fonctionnalités et améliorations
 
-## Conclusion
+## Conclusion du TP3
 En somme, ce projet TP3 représente un effort collaboratif et approfondi pour créer une application web complète et bien structurée. Il démontre non seulement une compréhension approfondie des principes de programmation Java et de développement web mais illustre également l'importance de l'architecture d'application et de la conception d'interfaces utilisateur dans le développement de logiciels modernes.
 
 Le projet sert de preuve concrète de notre capacité à appliquer des compétences théoriques dans un contexte pratique, tout en mettant en lumière l'efficacité des technologies Spring Boot et Bootstrap dans le développement d'applications web contemporaines.
