@@ -40,10 +40,9 @@
     </body>
     </html>
     
-<h1>Les differentes adresses</h1>
+<h1>Adresses</h1>
 <ul th:each="address:${allAddresses}">
-<li th:text="${address.content }">
-<li th:text="${address.auteur }">
+<li th:text="${address.content } + 'auteur :' + ${address.auteur }">
 
 </ul>
 </body>
